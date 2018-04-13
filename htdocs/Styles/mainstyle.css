@@ -1,0 +1,240 @@
+body{
+	background-color: black;
+	font-family: Verdana;
+	color: #fff;
+}
+
+a {
+	color: #ccccff;
+}
+
+background{
+	height: 100%;
+	width: 100%;
+}
+
+h1{
+	color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+	border-right: 1px solid #bbb;
+}
+
+nav li a.button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+#active {
+    background-color: #000099;
+}
+
+nav li a.welcome {
+	color: white;
+	
+}
+
+#signup {
+	border: solid;
+	border-width: 2px;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #3333cc;
+}
+
+
+div.blogpost {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.blogpost a.author {
+	color: white;
+}
+
+div.blogpost a.author:hover {
+	background-color: #3333cc;
+}
+
+.text_only {
+	background:none;
+    border:none;
+    margin:0;
+    padding:0;
+	color: white;
+	font-size: 12pt;
+}
+
+a:visited {
+	color: blue;
+}
+
+
+
+/*Ethan's Styles                  */
+/**********************************/
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+
+div {
+	border-radius: 5px;
+}
+
+.box {
+	position: relative;
+  border: 3px solid #b3b3ff;;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px
+}
+
+.submit {
+	position: relative;
+  left: 130px;
+}
+
+
+.Nav {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #668284;
+	margin-bottom: 10px;
+	border: 1 px;
+}
+
+.title {
+	position: relative;
+	left: 5px;
+	width: 25%;
+	padding: 5px;
+	font-family: Verdana, sans-serif;
+	margin: 1 px;
+	border-width: 1 px;
+	/*border-style: solid;
+	border-color: white;
+	*/
+}
+
+.tags {
+	position: relative;
+	left: 5px;
+	width: 25%;
+	padding: 5px;
+	margin: 1 px;
+	border-width: 1 px;
+	/*border-style: solid;
+	border-color: white;
+	*/
+}
+
+
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Verdana, sans-serif;
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: Garamond, serif;
+	color: #000000;
+}
+
+
+/*a:hover {
+	font-weight: bold;
+	color: #000099;
+}*/
+
+.left {
+	position: relative;
+	float: left;
+	margin: 5px;
+	width: 40%;
+	height: 100px;
+	border-width: 1 px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 100px;
+	background-color: #F4EBC3;
+	margin-bottom: 10px;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #668284;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+.formBut {
+	 width: 200px;
+	 height: 30px;
+	 margin: auto;
+	 display: block;
+	font-size: 16pt;
+	
+}
