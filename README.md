@@ -1,5 +1,5 @@
 # Prism
-Blog website for the Pike High School Sogeti Hackathon 2017
+Blog website for the Pike High School Sogeti Hackathon 2016
 
 <br>
 
